@@ -1,8 +1,8 @@
 uses crt;
 
-function luasPersegiPanjang(panjang, lebar: real): real;
+function LuasSegiempat(pan, leb: real): real;
 begin
- luasPersegiPanjang := panjang * lebar;
+ LuasSegiempat := pan * leb;
 end;
 
 var
@@ -11,6 +11,7 @@ begin
 clrscr;
  write('Masukkan panjang: '); readln(p);
  write('Masukkan lebar: '); readln(l);
-  luas := luasPersegiPanjang(p, l);
+  luas := LuasSegiempat(p, l);
   writeln('Luas Persegi Panjang = ', luas:0:2);
+
 end.
